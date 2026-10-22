@@ -1,0 +1,14 @@
+header {
+    /* Плавное изменение фона и цвета текста за 0.9 секунды */
+    transition: background-color 0.9s ease, color 0.3s ease;
+}
+
+header.light {
+    background-color: white;
+    color: black;
+}
+
+header.dark {
+    background-color: black;
+    color: white;
+}
